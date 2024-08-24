@@ -15,8 +15,11 @@
 // 3. Arrow Function
   // const makeNegative = num => num < 0 ? num : -num;
 
-// Lebih Singkat
-  makeNegative = num => num < 0 ? num : -num
+// 4. Lebih Singkat
+  // makeNegative = num => num < 0 ? num : -num
+
+// 5. Cara Lain
+  makeNegative = num => -Math.abs(num)
 
 console.log(makeNegative(10))
 console.log(makeNegative(-10))
