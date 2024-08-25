@@ -1,5 +1,5 @@
 // WPU Coding Challenge 2024
-// 7/366
+// 8/366
 // https://www.codewars.com/kata/5715eaedb436cf5606000381
 
 // 1. Function Declaration
