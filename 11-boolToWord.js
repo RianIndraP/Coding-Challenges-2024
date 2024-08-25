@@ -1,5 +1,6 @@
 // WPU Challenge 2024
 // 11/366
+// https://www.codewars.com/kata/53369039d7ab3ac506000467
 
 // 1. Function Declaration
     // function boolToWord( bool ){
