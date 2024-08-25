@@ -1,5 +1,5 @@
 // WPU Coding Challenge 2024
-// 8/366
+// 9/366
 // https://www.codewars.com/kata/5168bb5dfe9a00b126000018/train/javascript
 
 // 1. Function Declaration
