@@ -125,7 +125,8 @@ console.log(opposite(-34));
 
 // 9. Jumlah Kuadrat
 // https://www.codewars.com/kata/515e271a311df0350d00000f/train/javascript
-// Lengkapi fungsi jumlah kuadrat sehingga mengkuadratkan setiap angka yang dimasukkan ke dalamnya dan kemudian menjumlahkan hasilnya bersama-sama.
+// Lengkapi fungsi jumlah kuadrat sehingga mengkuadratkan setiap angka yang dimasukkan ke dalamnya dan kemudian menjumlahkan hasilnya 
+// bersama-sama.
 
 // Misalnya, untuk [1, 2, 2] seharusnya mengembalikan 9 karena 
 // 1^2 + 2^2 + 2^2 = 9.
@@ -150,5 +151,47 @@ console.log(squareSum([0, 3, 2, 2]));
 
 removeChar = str => str.slice(1, -1);
 
-console.log(removeChar('world')); 
+console.log(removeChar('world'));
 console.log(removeChar('country'));
+
+// 11. String repeat
+// https://www.codewars.com/kata/57a0e5c372292dd76d000d7e/train/javascript
+// Tulis fungsi yang menerima bilangan bulat n dan string s sebagai parameter, dan mengembalikan string s yang diulang tepat n kali.
+// Contoh (input -> output)
+// 6, "I" -> "IIIIII"
+// 5, "Hello" -> "HelloHelloHelloHelloHello"
+
+// function repeatStr(n, s) {
+//     return s.repeat(n);
+// }
+
+repeatStr = (n, s) => s.repeat(n);
+
+console.log(repeatStr(6, "I"));
+console.log(repeatStr(5, "Hello"));
+
+// 12. Sum of numbers
+// https://www.codewars.com/kata/55d24f55d7dd296eb9000030/train/javascript
+// Tulis program yang menemukan penjumlahan setiap angka dari 1 hingga num. Angkanya akan selalu berupa bilangan bulat positif yang 
+// lebih besar dari 0. Fungsi Anda hanya perlu mengembalikan hasil, apa yang ditampilkan di antara tanda kurung dalam contoh di bawah 
+// ini adalah bagaimana Anda mencapai hasil itu dan itu bukan bagian darinya, lihat contoh tes.
+// Misalnya (Input -> Output):
+// 2 -> 3 (1 + 2)
+// 8 -> 36 (1 + 2 + 3 + 4 + 5 + 6 + 7 + 8)
+
+// var summation = function (num) {
+//     return num * (num + 1) / 2;
+// }
+
+// var summation = function (num) {
+//     let sum = 0;
+//     for (let i = 1; i <= num; i++) {
+//         sum += i;
+//     }
+//     return sum;
+// }
+
+summation = num => num * (num + 1) / 2;
+
+console.log(summation(2)); 
+console.log(summation(8));
